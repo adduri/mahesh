@@ -14,6 +14,7 @@
 //= require jquery_ujs
 //= require twitter/bootstrap
 //= require_tree .
+//= require jquery.gridster.js
 
 
 /*!
@@ -1371,3 +1372,4 @@ $.fn.cycle.transitions.wipe = function($cont, $slides, opts) {
 };
 
 })(jQuery);
+

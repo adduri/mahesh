@@ -68,6 +68,8 @@ GEM
     fastercsv (1.5.5)
     formtastic (2.2.1)
       actionpack (>= 3.0)
+    gridster-rails (0.1.0.1)
+      railties (~> 3.1)
     has_scope (0.5.1)
     hike (1.2.1)
     i18n (0.6.4)
@@ -175,6 +177,7 @@ DEPENDENCIES
   bcrypt-ruby
   coffee-script
   devise
+  gridster-rails (~> 0.1.0.1)
   less-rails
   mysql2
   paperclip

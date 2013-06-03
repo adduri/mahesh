@@ -1,4 +1,6 @@
 Mj::Application.routes.draw do
+  get "registration/index"
+
 root :to => "advertisements#index"
 
   devise_for :admin_users, ActiveAdmin::Devise.config
@@ -11,8 +13,9 @@ root :to => "advertisements#index"
 
   match 'aboutus' => 'about#aboutus'
 
+get "registration/index"
 
-  resources :advertisements
+   resources :advertisements
 
 
   resources :feedbacks
