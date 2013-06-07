@@ -85,7 +85,8 @@ height:33px; line-height:38px; margin-right:20px; padding-left:77px; text-decora
   border-radius: 5px;
   /*background:url('/assets/down_arrow.png') no-repeat 42px 5px;*/
 }
-#search{right:110px;
+#search{
+  right:110px;
   top:20px;
   position:absolute;
 }
@@ -101,8 +102,8 @@ font-family: "lucida grande", sans-serif;
 .clearDiv{clear:both;}
 #footer{
   width:100%;
-  background-color:#0C0C0C;
-  height:100px;
+  background-color:#C3A354;
+  max-height: 130px;
   font-family: "lucida grande", sans-serif;
 
 }
@@ -116,7 +117,7 @@ font-family: "lucida grande", sans-serif;
 #footer_in h1{
   padding:0px;
   margin:0px;
-  display:block;
+  display:white;
   font-size:18px;
   font-weight:normal;
 }
@@ -137,7 +138,7 @@ font-family: "lucida grande", sans-serif;
   background-color: green;
 }
 
-#bottom_strip{background:#000; height:32px; width: 100%;}
+#bottom_strip{background:#000; height:20px; width: 100%;}
 #bottom_strip .inner_wrap div{position:absolute; right:0px;}
 #bottom_strip .inner_wrap div a{ float:right; color:#fff; line-height:32px; display:block; margin-left:25px; text-decoration:none;
 font-size:13px;
@@ -300,16 +301,18 @@ margin: 5px 0 5px 7px !important; font-size: 20px;
 .footer_slideshow img{padding:10px;border:0px solid #000;}
 
 .button_style{
-    border: gray 1px solid;
+    border: gray 2px ;
     padding: 3px 10px;
-    background-color: gray;
+    background-color:#339AB8;
     color: white;
     text-align: center;
     cursor: pointer;
     font-weight: normal;
-    border-radius: 5px;
+    border-radius: 8px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
+    height: 35px;
+    width: 15px;
 }
 .select_style{
     margin: 0;
@@ -334,12 +337,13 @@ margin: 5px 0 5px 7px !important; font-size: 20px;
     width: 300px;
 }
 #search_button{
-  background:url('/assets/search_img.png');
+  background:url('/assets/sea.png');
   height: 27px;
   width: 32px;
   margin-left: -4px;
   border: none;
   color: transparent;
+
 }
 
 

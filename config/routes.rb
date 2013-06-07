@@ -11,6 +11,14 @@ root :to => "advertisements#index"
 
   get "about/aboutus"
 
+  get "users/sign_up"
+
+    get "sessions/new"
+
+
+
+
+
   match 'aboutus' => 'about#aboutus'
 
 get "registration/index"

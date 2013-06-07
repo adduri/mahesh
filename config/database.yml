@@ -15,5 +15,5 @@ development:
   database: maheshwari
   pool: 5
   username: root
-  password: admin
+  password: maheshwari
   socket: /var/run/mysqld/mysqld.sock

@@ -56,30 +56,40 @@
 }
 #footer .navbar{
   position: absolute;
-}
+ }
+#footer {background-color:#f3f3f3}
 
 
-
-#bottom_strip{background:#000; height:32px; width: 100%; }
+#bottom_strip{background:#fff; height:31px; width: 100%; }
 #bottom_strip .inner_wrap div{position:absolute; right:0px;}
-#bottom_strip .inner_wrap div a{ float:right; color:#fff; line-height:32px; display:block; margin-left:25px; text-decoration:none;
+#bottom_strip .inner_wrap div a{ float:right; color:#000000; line-height:15px; display:block; margin-left:10px; text-decoration:none;
 font-size:13px;
 }
-#bottom_strip .inner_wrap span{position:absolute; left:0px; font-size:13px; color:#fff; line-height:32px;}
-.inner_wrap{width:985px; margin: 0px auto; position:relative !important;padding-top: 130px}
+#bottom_strip .inner_wrap span{position:absolute; left:0px; font-size:13px; color:#000000; line-height:30px; }
+.inner_wrap{width:1535px; margin: 0px auto; position:relative !important;padding-top: 8px;}
  
-
- 
- 
-    </style>
+#slider{color:#000000;}
+      </style>
+     <link href="themes/1/js-image-slider.css" rel="stylesheet" type="text/css" />
+    <script src="themes/1/js-image-slider.js" type="text/javascript"></script>
+    <link href="generic.css" rel="stylesheet" type="text/css" />
     </head>
-    <body>
+    <body>        
 <div class="row">
+
   <div class="navbar-inner">
     <div class="container">
+      <div id="s" style="padding-left:790px">
+   
+
+ <button class="btn btn-info" onclick="window.location.href='/users/sign_up'"> Registartion</button>&nbsp; &nbsp; 
+       <button class="btn btn-info" onclick="window.location.href='/sessions/new'">Log In</button>
+
+
+     </div>
 
      <div class="span2">
-
+<img src="/assets/beta.png" height="79" width="52">
       <a class="brand" href="/"><img src="/assets/logo.png" style="height:80px;" id="logo"/></a> 
      </div><!--span2-->
         <div class= "span3">
@@ -99,11 +109,12 @@ font-size:13px;
           </div><!--input-prepend--></ul>
 </div><!--container nav-collapse-->
   
-      <div  class="span2" id="topContact" style="padding-left: 100px;">
+      <div  class="span2" id="topContact" style="padding-left: 100px;padding-top:35px">
       <a href="mailto:maheshwari.jagruth@gmail.com" class="contact" style="float: right; padding-left:-50px;">maheshwari.jagruth@gmail.com</a>
-
-
-
+ 
+      
+  
+  
      </div><!--span2-->      
 
     </div> <!--container-->   
@@ -111,18 +122,17 @@ font-size:13px;
   </div><!--navbar-inner-->
 </div><!--row-->
 
-<div class="container nav-collapse">
+<div class="container nav-collapse" >
 <ul class="nav nav-pills">
   <li><a href="/">Home &nbsp;&nbsp;</a></li> 
   <li><a href="/events">Events &nbsp;&nbsp;</a></li>  
-  <!-- <li><a href="/advertisements">Partners &nbsp;&nbsp;</a></li>  -->
-  <li><a href="/registration">Registration &nbsp;&nbsp;</a></li> 
+  <!-- <li><a href="/advertisements">Partners &nbsp;&nbsp;</a></li> 
+  <li><a href="/registration">Registration &nbsp;&nbsp;</a></li>  -->
   <li><a href="/states">States</a></li>
   <li class="dropdown">
     <a class="dropdown-toggle"data-toggle="dropdown"href="#">About Us<b class="caret"></b></a>
     
-
-        <ul class="dropdown-menu">
+         <ul class="dropdown-menu">
            <li><a href="/aboutus">About Us</a></li>
            <li><a href="../../history.pdf" target="_blank">History</a></li>   
            <li><a href="../../festivals.pdf" target="_blank">Festivals</a></li>      
@@ -133,7 +143,7 @@ font-size:13px;
   </li>
         
 </div><!--container nav-collapse-->
-  
+   
  
 <div class="container" >
   <div id="example" class="modal hide fade in" >
@@ -158,21 +168,80 @@ font-size:13px;
     </div><!--span12-->
   </div><!--/row-->
 </div> <!-- /container -->
-<div class="navbar navbar-inverse navbar-fixed-bottom">
-<div id="footer"> 
 
-  <div class="span5">
-     <p style="font-size:13px;
-     padding-top:9px;
-     font-style:times;color:black">   
-     Maheswhari Jagruth intents to bring in its community a kind of awareness through which the members are benefited.  </p>
+ 
+
+
+<div class="navbar navbar-inverse navbar-fixed-bottom" style="color:white" >
+<div id="footer" height="83px;"  style="color:blue"> 
+  <div class="row">
+    <div class="span4" style="padding-top:0px;">
+      <a href="http://www.salasarindia.com/" target =_blank> 
+      <div id="sliderFrame" style="padding-right:180px">
+        <div id="ribbon"></div><!--ribbon-->
+        <div id="slider">
+          <img  src="/assets/s/5.jpg" height="14" width="10" />
+          <img style="max-width:95%;border:6px double #545565;" src="/assets/s/1.jpg"/>
+          <img src="/assets/s/2.jpg" />
+          <img src="/assets/s/3.jpg"    />
+          <img  src="/assets/s/4.jpg"  />
+        </div><!--slider-->
+        <div id="htmlcaption" style="display: none;">
+        </div><!--htmlcaption--> 
+
+      </div><!--slid frame-->
+      </a>
+    </div> <!--span4-->
+  <div class="span6" style="color:#000000;padding-top:1px;">
+        <p style="padding-right:4px; "><center><strong><h4 style="font-family: italic" >"SALASAR"</a><sub>The House Of Steel Pipes </sub></h4> </center></strong> 
+
+
+<!--
+        
+<a href="mailto:maheshwari.jagruth@gmail.com" class="contact" style="float: right; padding-left:-50px;">maheshwari.jagruth@gmail.com</a>  
+webiste :-
+<a href="www.salasarindia.com"> https://www.salasarindia.com </a>  Contact :- +91 90 300 27631 (TO) 635</marquee></p>
+ -->
+  
+<marquee onmouseover="this.stop();" onmouseout="this.start();" scrollamount="5"> 
+ERW MS Pipes, GI Pipes,Seamless Tubes, Boiler Tubes, Square & Rectagular Hollow Sections and
+        Large Dia Pipes<br>
+
+ Website: &nbsp;<a href="http://www.salasarindia.com/"target =_blank>www.salasarindia.com</a>&nbsp;
+ Mail Id: 
+ <a href="mailto:info@salasarindia.com"> info@salasarindia.com&nbsp;</a> <!--class="contact"-->
+ Contact: +91 90 300 27631 (TO) 635
+
+
+</marquee>
+
+  </div><!--span6-->
+ 
+    <div class="span2" style="padding-top:23px;padding-left:273px"> 
+<a href="http://www.salasarindia.com/" target =_blank> 
+    <img border="4" src="/assets/salasar.jpg" /> </a>
+    </div><!--span3-->
+    
+
+</div><!--row--><!--bottom strip start-->
+ <div id="bottom_strip">
+  <div class="inner_wrap">
+    <span>@ MJ. All rights reserved</span>
+    <div>
+      <a href="#">Terms and Conditions</a>
+      <a style="color:#8B1001;">|</a>
+      <a href="#">Privacy Policy</a>
+    </div>
   </div>
-
-
-  <div class="" style="padding-top:29px;padding-left:26px"> 
-    <img src="/assets/salasar.jpg" /> 
-  </div><!--span3-->
+ </div>
+   <!--bottom strip End-->
 </div><!--footer-->
+ 
+</div><!--fixed-bottom-->
+ 
+
+  
+ 
 
 
     <!-- Javascripts
@@ -181,4 +250,11 @@ font-size:13px;
     <%= javascript_include_tag "application" %>
     </div>
     </body>
+ 
+
 </html>
+
+
+<br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
+<br><br><br><br>

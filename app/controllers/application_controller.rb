@@ -8,7 +8,7 @@ class ApplicationController < ActionController::Base
 	def current_user
 	  @current_user ||= User.find(session[:user_id]) if session[:user_id]
 	end
-=begin
+ 
 	def login_required
 		unless current_user
 	    redirect_to "/login", :notice => 'please login first!'
@@ -20,5 +20,7 @@ class ApplicationController < ActionController::Base
 	    redirect_to "/sessions/login_page/#{current_user.id}"
 	  end
 	end
-=end
+ 
 end
+
+ 
